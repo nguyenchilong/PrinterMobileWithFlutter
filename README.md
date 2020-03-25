@@ -4,11 +4,14 @@ A new Flutter project.
 
 This project is implemented with 2 product demo
 
-1.weight scale  -> sends data weight item to the application
+1.weight scale  -> sends data weight item to the application.
+
 2.mobile printer -> gets data from application and prints data to thermal paper
 
 Procedure of application
+
 when user starts application.
+
 1.application ask user start  bluetooth on if users deny to open bluetooth  application stop running and do nothing.
 
 
@@ -31,14 +34,25 @@ when user starts application.
   weight scale was disconnect to application and the printer mobile that users chosen will connect instead and print data
 
 โปรเจ็คนี้มีอุปกรณ์ต่อพ่วง 2 เครื่อง คือ เครื่องชั่งและเครื่องพิมพ์กระดาษความร้อน
+
 โดย
+
 1.เครื่องชั่งจะส่งข้อมูลน้ำหนักออกมาตลอดเวลา
+
 2.เครื่องพิมพ์จะพิมพ์น้ำหนักเมื่อถูกกดปุ่มจาก users
 
+
 ขั้นตอน
+
 1.เมื่อเปิดแอป แอปจะถามว่าต้องการเปิดบลูทูธหรือไม่ หาก user ปฎิเสธ ตัวแอปจะออกจากการทำงานทันที
+
+
+
 2.ปุ่ม "เชื่อมต่อเครื่องชั่ง" ถ้าหาก user กดจะเป็นการหาอุปกรณ์บลูทูธที่อยู่ใกล้แอปตัวนี้ 
+
  และหากอุปกรณ์นั้นทำงานในรูปแบบ serial communcation ให้แอปแสดงข้อมูลตรง tag label ว่ามีข้อมูลเข้าแล้ว
+ 
+ 
 3.หาก user กดปุ่ม "พิมพ์ใบเสร็จ" หรือ "พิมพ์สติกเกอร์" เครื่องชั่งจะหยุดการทำงาน และแอปจะเชื่อมต่อเครื่องพิมพ์แทน จากนั้นจะทำการพิมพ์น้ำหนัก ณ ขณะที่ปุ่มเครื่องพิมพ์ถูกกด
   
 
