@@ -10,13 +10,24 @@ This project is implemented with 2 product demo
 Procedure of application
 when user starts application.
 1.application ask user start  bluetooth on if users deny to open bluetooth  application stop running and do nothing.
+
+
 2.There are 3 Buttons,on the Button "เชื่อมต่อเครื่องชั่ง" will search bluetooth device near users's mobile 
+
   if user choose right device that perform sending data weight or numberic data in  serial communication,
+  
   on the tag label weight will show data that read from devices users chosen. 
+  
   device that connect wtih the button "เชื่อมต่อเครื่องชั่ง" , device performs streaming data into application continously
+  
   until The 2 rest button are "พิมพ์ใบเสร็จ" and "พิมพ์สติกเกอร์" was pressed.
+  
 3.after data  show on tag label if users pressed either 2 rest button.
-  bluetooth device will show again for users choose printer mobile device to print data that show in tag label 
+
+
+  bluetooth device will show again for users choose printer mobile device to print data that show in tag label.
+  
+  
   weight scale was disconnect to application and the printer mobile that users chosen will connect instead and print data
 
 โปรเจ็คนี้มีอุปกรณ์ต่อพ่วง 2 เครื่อง คือ เครื่องชั่งและเครื่องพิมพ์กระดาษความร้อน
